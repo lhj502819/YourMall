@@ -24,6 +24,8 @@
         <org.projectlombok.version>1.18.10</org.projectlombok.version>
         <guava.version>27.0.1-jre</guava.version>
         <fastjson.version>1.2.56</fastjson.version>
+        <swagger.version>2.0.2</swagger.version>
+        <swagger.ui.version>1.9.6</swagger.ui.version>
     </properties>
 
 
@@ -81,7 +83,17 @@
             </dependency>
 
 
-
+            <!--swagger-->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-micro-spring-boot-starter</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>swagger-bootstrap-ui</artifactId>
+                <version>${swagger.ui.version}</version>
+            </dependency>
             <!-- Job 相关 -->
             <dependency>
                 <groupId>com.xuxueli</groupId>
