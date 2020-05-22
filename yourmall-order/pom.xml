@@ -11,12 +11,12 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>yourmall-wms</artifactId>
+    <artifactId>yourmall-order</artifactId>
     <packaging>pom</packaging>
-
+    <description>订单服务</description>
     <modules>
-        <module>wms-application</module>
-        <module>wms-service-api</module>
-        <module>wms-service-impl</module>
+        <module>order-application</module>
+        <module>order-service-api</module>
+        <module>order-service-impl</module>
     </modules>
 </project>

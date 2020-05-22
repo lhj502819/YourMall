@@ -6,17 +6,13 @@
 
     <parent>
         <groupId>com.mall</groupId>
-        <artifactId>mall</artifactId>
+        <artifactId>yourmall-member</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>yourmall-wms</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>member-service-api</artifactId>
+    <version>${mall.project.version}</version>
+    <name>${project.artifactId}</name>
+    <packaging>jar</packaging>
 
-    <modules>
-        <module>wms-application</module>
-        <module>wms-service-api</module>
-        <module>wms-service-impl</module>
-    </modules>
 </project>

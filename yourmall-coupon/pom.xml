@@ -11,12 +11,13 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>yourmall-wms</artifactId>
+    <artifactId>yourmall-coupon</artifactId>
     <packaging>pom</packaging>
-
+    <description>优惠券服务</description>
     <modules>
-        <module>wms-application</module>
-        <module>wms-service-api</module>
-        <module>wms-service-impl</module>
+        <module>coupon-application</module>
+        <module>coupon-service-api</module>
+        <module>coupon-service-impl</module>
     </modules>
+
 </project>

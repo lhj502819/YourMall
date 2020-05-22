@@ -7,10 +7,10 @@
         <groupId>com.mall</groupId>
         <artifactId>mall</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>./parent_pom/pom.xml</relativePath>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>yourmall</artifactId>
+    <artifactId>yourmall-product</artifactId>
     <packaging>pom</packaging>
 
     <modules>
