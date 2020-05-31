@@ -6,25 +6,14 @@
 
     <parent>
         <groupId>com.mall</groupId>
-        <artifactId>yourmall-product</artifactId>
+        <artifactId>yourmall-pay</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>product-service-api</artifactId>
+    <artifactId>pay-service-api</artifactId>
     <version>${mall.project.version}</version>
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                    <finalName>${project.name}</finalName>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 </project>
